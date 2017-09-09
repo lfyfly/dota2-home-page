@@ -1,0 +1,18 @@
+// @import 'src/commom/scss/mixins.scss';
+
+// 常用mixins
+
+@mixin bgImg($width, $height, $pos-left, $pos-right, $bg-url) {
+  display: inline-block;
+
+  width: $width + px;
+  height: $height + px;
+  background: url($bg-url)  no-repeat;
+  @if  $pos-left!=0 or $pos-left!=0 {
+    background-position: $pos-left + px $pos-right + px;
+  }
+}
+// 代表背景定位为 0 0
+@mixin bgImg0($width, $height, $bg-url){
+  @include bgImg($width, $height, 0, 0, $bg-url)
+}

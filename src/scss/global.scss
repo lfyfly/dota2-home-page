@@ -1,0 +1,29 @@
+// ---------scss全局变量-----------
+// 基础设置
+$font-family: 'Microsoft YaHei',
+Verdana,
+Arial,
+Helvetica,
+sans-serif;
+$base-font-size:14px;
+$base-font-color: #999;
+
+// ------------------定制化设置------------------
+
+// -----色彩-----
+// global
+$active-color: #00c0ff;
+$active-color-1: #ed4c4c;
+// 根据组件划分文字颜色和背景色
+// header
+$header-nav-font-color: #827c79;
+// body
+// 字体颜色继承 $base-font-color
+$body-font-color-lighter: #ccc;
+
+
+
+
+
+
+

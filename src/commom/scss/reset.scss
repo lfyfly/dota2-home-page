@@ -1,0 +1,79 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: normal;
+}
+
+// 此文件在App.vue中引用
+@import 'src/scss/global.scss';
+body {
+  color: $base-font-color;
+  font-size: $base-font-size;
+  font-family: $font-family;
+  line-height: 1;
+}
+
+a {
+  color: $base-font-color;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.horizontal>*{
+  display: inline-block;
+}
+.vertical-center{
+  display: table;
+  &>*:first-child{
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+.icon-text-hor>*{
+  vertical-align: middle;
+}
+

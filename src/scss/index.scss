@@ -1,0 +1,8 @@
+// 可以在任何需要的组件中引入
+// @import 'src/scss/index.scss';
+@import './global.scss';
+@import 'src/commom/scss/mixins.scss';
+// ------------------定制化mixin------------------
+@mixin icon($pos-left, $pos-right) {
+  @include bgImg(35, 35, $pos-left, $pos-right, '/static/img/icons.png')
+}

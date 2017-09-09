@@ -1,0 +1,51 @@
+// 此文件在App.vue中引用
+@import '../scss/index.scss';
+// -----------------header组件
+.header-logo-icon {
+  @include bgImg(260, 40, 0, 0, '/static/img/header/dota2.home.logo.png');
+}
+
+.header-user-avtar-icon {
+  @include bgImg(50, 50, 13, -451, '/static/img/icons-1.png');
+}
+
+// -----------------body组件
+
+.hot-icon {
+  transform: scale(.65);
+  color: #fff;
+  line-height: 18px;
+  padding: 0 6px;
+  border-radius: 10px;
+  background: $active-color-1;
+  &:after {
+    content: 'HOT';
+  }
+}
+
+.search-icon {
+  @include icon( 6, -692);
+}
+
+.dot-icon {
+  @include bgImg(10, 10, -3, -803, '/static/img/icons.png');
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+// -----------------footer组件
+ .wanmei-logo{
+   @include bgImg( 94, 33, 0, 0, '/static/img/footer/logo-wanmei.png');
+ }
+ .valve-logo{
+  @include bgImg( 99, 28, 0, 0, '/static/img/footer/logo-valve.png');
+ }
+// -----------------my-slide组件 右侧二维码 滑动组件
+  .service-icon {
+    @include bgImg(24, 24, -8, -10,'/static/img/slide/icon-float-bar.png');
+    vertical-align: middle;
+  }
+  .weibo-icon {
+    @include bgImg(24, 24, -42, -10, '/static/img/slide/icon-float-bar.png');
+    vertical-align: middle;
+  }
