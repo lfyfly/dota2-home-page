@@ -1,6 +1,6 @@
-# vue_origin
+# dota2 官网首页（仿） vue项目
 
-> A Vue.js project
+# [线上DEMO](https://lfyfly.github.io/dota2-home-page/)
 
 ## Build Setup
 
