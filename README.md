@@ -1,4 +1,5 @@
-# dota2 官网首页（仿） vue项目
+# dota2 官网首页（仿）
+> 这是一个PC端vue项目
 
 # [线上DEMO](https://lfyfly.github.io/dota2-home-page/)
 
