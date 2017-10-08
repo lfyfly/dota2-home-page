@@ -1,7 +1,7 @@
 # dota2 官网首页（仿）
 > 这是一个PC端vue项目
 
-# [线上DEMO](https://lfyfly.github.io/dota2-home-page/)
+# [线上DEMO](http://lfyfly.gitee.io/dota2-home-page/docs/)
 
 ## Build Setup
 
